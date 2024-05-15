@@ -76,30 +76,22 @@ Load: Lädt Daten aus dem Speicher in ein Register.
 Control: Steuert den Ablauf des Programms, z. B. durch Sprünge oder Schleifen.
 
 Memory: Erlaubt direkten Zugriff auf den Speicher, einschließlich Lesen, Schreiben und Manipulieren von Daten.
-
+![image](https://github.com/k48m/infoBasis/assets/168540271/d24423c3-eafa-4754-9b66-e053607f08fe)
    
 ### Für die Enumerierung der Register gibt es im Kontext von MIPS die Register Naming Convention.Erkläre wofür konkret die einzelnen Registers von 0 bis 31 verwendet werden.
-$zero ($0): Dieses Register ist immer Null und kann nicht verändert werden. Es wird oft verwendet, um Nullen zu setzen oder bei Berechnungen als Konstante.
+$zero ($0): Immer Null.
+$at ($1): Assembler Temporary Register.
+$v0-$v1 ($2-$3): Rückgabewerte von Funktionen.
+$a0-$a3 ($4-$7): Argumente für Funktionen.
+$t0-$t9 ($8-$15): Temporäre Variablen.
+$s0-$s7 ($16-$23): Gesicherte (saved) Register.
+$t8-$t9 ($24-$25): Zusätzliche temporäre Register.
+$k0-$k1 ($26-$27): Kernel Register.
+$gp ($28): Global Pointer.
+$sp ($29): Stack Pointer.
+$fp ($30): Frame Pointer.
+$ra ($31): Return Address.
 
-$at ($1): Das Assembler Temporary Register wird von Assemblern verwendet, um temporäre Werte zu speichern, die für den Assemblierungsprozess benötigt werden.
-
-$v0-$v1 ($2-$3): Diese sind die Return Value Register und werden verwendet, um Rückgabewerte von Funktionen zu halten.
-
-$a0-$a3 ($4-$7): Argument Register, in denen Argumente für Funktionen übergeben werden.
-
-$t0-$t9 ($8-$15): Temporäre Register, die für temporäre Variablen und Zwischenwerte verwendet werden.
-
-$s0-$s7 ($16-$23): Saved Register, die für die Speicherung wichtiger Werte in Unterprogrammen (Funktionen) verwendet werden, da ihr Inhalt beim Aufrufen einer Funktion gesichert (gespeichert) wird.
-
-$k0-$k1 ($26-$27): Kernel Register, die von Kernel- oder Betriebssystemcodes verwendet werden können.
-
-$gp ($28): Global Pointer, der auf den globalen Adressbereich zeigt.
-
-$sp ($29): Stack Pointer, der auf den aktuellen Stackzeiger zeigt.
-
-$fp ($30): Frame Pointer, der auf den aktuellen Rahmen (Frame) im Stack zeigt.
-
-$ra ($31): Return Address, der die Rückkehradresse von Unterprogrammen speichert.
 
 ### Beschreibe kurz den Aufbau einer beliebigen Instruktion bis ins wesentlichste Detail.
 Eine Instruktion besteht aus einem Opcode, der den Befehlstyp angibt, Operanden, die die Daten oder Adressen für den Befehl darstellen, einem Adressierungsmodus, der angibt, wie die Operanden im Speicher gefunden werden, und Steuerbits, die zusätzliche Funktionen oder Bedingungen der Anweisung steuern.
