@@ -31,17 +31,78 @@ Eine Klasse oder ein abstraktes Konzept in ein konkretes Objekt umzuwandeln, das
 Eine Instanz ist eine konkretes Auftreten einer Klasse in einem Programm es ist ein bestimmtes Objekt in einem Programm eine Instanz seiner Klasse.
 
 ## Hexadecima
+Hexadezimal ist ein Zahlensystem, das nicht bis 10, sondern bis 16 zählt. Es verwendet die Zahlen 0-9 und die Buchstaben A-F, um Zahlen darzustellen. Es wird oft in der Informatik genutzt, um Binärzahlen einfacher zu schreiben.
 
-!!!!!
 ## Was ist die ’Control Unit’ ?
-## Was ist die ’Arithmetic/Logic Unit’ ?
-## Was ist die ’Memory Unit’ ?
-## Was sind Register, was sind Addressen?
+Die Control Unit innerhalb einer CPU ist vergleichbar mit dem Dirigenten eines Orchesters. Sie koordiniert und synchronisiert die verschiedenen Instrumente (die Hardware-Komponenten), um sicherzustellen, dass sie im Einklang arbeiten und die Befehle der Software richtig ausgeführt werden. Kurz gesagt, sie ist das Steuerzentrum, das den gesamten Betrieb des Computers orchestriert.
+![image](https://github.com/k48m/infoBasis/assets/168540271/360c3d11-b3c9-46a6-97ec-b0573eb27a16)
 
-## Beschreibe die verwendeten Fachbegriffe: ’Instruction’, ’Mnemonic’, ’Instruction Encoding’, ’In-struction Format’, ’OPCode’, ’Register’, ’Memory Address’
-## Beschreibe kurz die wichtigsten Instruktionskategorien: ’Arithmetic’, ’Move’, ’Shift’, ’Load’, ’Control’, ’Memory’
-## Für die Enumerierung der Register gibt es im Kontext von MIPS die Register Naming Convention.Erkläre wofür konkret die einzelnen Registers von 0 bis 31 verwendet werden.
-## Beschreibe kurz den Aufbau einer beliebigen Instruktion bis ins wesentlichste Detail.
+## Was ist die ’Arithmetic/Logic Unit’ ?
+ist ein Teil der CPU, der für das Ausführen von mathematischen Operationen (wie Addition und Subtraktion) und logischen Operationen (wie Vergleiche und Entscheidungen) zuständig ist. Stell sie dir wie einen Taschenrechner vor, der in deinem Computer eingebaut ist und rechnet sowie logische Entscheidungen trifft, um die gewünschten Ergebnisse zu liefern.
+![image](https://github.com/k48m/infoBasis/assets/168540271/eea57f0f-9822-4055-89f6-bfa0a2472b05)
+
+## Was ist die ’Memory Unit’ ?
+Die Memory Unit ist der Ort, an dem der Computer Informationen speichert, die er benötigt, um zu arbeiten. Es ist sein Gedächtnis, wo er Dinge temporär ablegt, während er arbeitet.
+![image](https://github.com/k48m/infoBasis/assets/168540271/67f8dcce-310a-4080-9096-3d87d9817e12)
+
+## Was sind Register, was sind Addressen?
+Register sind wie kleine Schubladen innerhalb der CPU, in denen Daten kurzfristig gespeichert werden können. Sie sind extrem schnell, aber begrenzt in der Menge und Größe der Daten, die sie halten können.
+
+Adressen sind wie Wegbeschreibungen zu bestimmten Speicherorten im Computer. Jeder Speicherplatz im Computer hat eine eindeutige Adresse, die es dem Prozessor ermöglicht, genau zu wissen, wo sich bestimmte Daten befinden, damit er darauf zugreifen kann.
+
+### Beschreibe die verwendeten Fachbegriffe: ’Instruction’, ’Mnemonic’, ’Instruction Encoding’, ’In-struction Format’, ’OPCode’, ’Register’, ’Memory Address’
+Instruction: Ein Befehl, den der Computerprozessor ausführt, wie zum Beispiel eine Rechenoperation oder ein Speicherzugriff.
+
+Mnemonic: Eine Abkürzung oder ein symbolischer Code für eine Maschinenanweisung, der Programmierern hilft, Befehle leichter zu schreiben und zu verstehen.
+
+Instruction Encoding: Die Umwandlung einer menschenlesbaren Anweisung (wie einem Mnemonic) in eine Form, die vom Computer verstanden werden kann.
+
+Instruction Format: Die Struktur einer Maschinenanweisung, die angibt, wie die Befehle und Operanden in einem Befehl codiert sind.
+OPCode: Ein Teil einer Maschinenanweisung, der den Befehlstyp angibt. Er bestimmt, welche Operation ausgeführt werden soll.
+
+Register: Kleine Speicherbereiche in der CPU, die zur temporären Speicherung von Daten und Zwischenwerten verwendet werden, um schnelle Zugriffe zu ermöglichen.
+
+Memory Address: Eine eindeutige Nummer, die einen bestimmten Speicherort im Computerspeicher identifiziert, verwendet, um Daten im Arbeitsspeicher (RAM) oder anderen Speichergeräten zu lesen oder zu schreiben.
+
+### Beschreibe kurz die wichtigsten Instruktionskategorien: ’Arithmetic’, ’Move’, ’Shift’, ’Load’, ’Control’, ’Memory’
+Arithmetic: Führt mathematische Operationen wie Addition und Subtraktion durch.
+
+Move: Kopiert Daten von einem Ort zum anderen.
+
+Shift: Verschiebt die Bits einer Zahl nach links oder rechts.
+
+Load: Lädt Daten aus dem Speicher in ein Register.
+
+Control: Steuert den Ablauf des Programms, z. B. durch Sprünge oder Schleifen.
+
+Memory: Erlaubt direkten Zugriff auf den Speicher, einschließlich Lesen, Schreiben und Manipulieren von Daten.
+
+   
+### Für die Enumerierung der Register gibt es im Kontext von MIPS die Register Naming Convention.Erkläre wofür konkret die einzelnen Registers von 0 bis 31 verwendet werden.
+$zero ($0): Dieses Register ist immer Null und kann nicht verändert werden. Es wird oft verwendet, um Nullen zu setzen oder bei Berechnungen als Konstante.
+
+$at ($1): Das Assembler Temporary Register wird von Assemblern verwendet, um temporäre Werte zu speichern, die für den Assemblierungsprozess benötigt werden.
+
+$v0-$v1 ($2-$3): Diese sind die Return Value Register und werden verwendet, um Rückgabewerte von Funktionen zu halten.
+
+$a0-$a3 ($4-$7): Argument Register, in denen Argumente für Funktionen übergeben werden.
+
+$t0-$t9 ($8-$15): Temporäre Register, die für temporäre Variablen und Zwischenwerte verwendet werden.
+
+$s0-$s7 ($16-$23): Saved Register, die für die Speicherung wichtiger Werte in Unterprogrammen (Funktionen) verwendet werden, da ihr Inhalt beim Aufrufen einer Funktion gesichert (gespeichert) wird.
+
+$k0-$k1 ($26-$27): Kernel Register, die von Kernel- oder Betriebssystemcodes verwendet werden können.
+
+$gp ($28): Global Pointer, der auf den globalen Adressbereich zeigt.
+
+$sp ($29): Stack Pointer, der auf den aktuellen Stackzeiger zeigt.
+
+$fp ($30): Frame Pointer, der auf den aktuellen Rahmen (Frame) im Stack zeigt.
+
+$ra ($31): Return Address, der die Rückkehradresse von Unterprogrammen speichert.
+
+### Beschreibe kurz den Aufbau einer beliebigen Instruktion bis ins wesentlichste Detail.
+Eine Instruktion besteht aus einem Opcode, der den Befehlstyp angibt, Operanden, die die Daten oder Adressen für den Befehl darstellen, einem Adressierungsmodus, der angibt, wie die Operanden im Speicher gefunden werden, und Steuerbits, die zusätzliche Funktionen oder Bedingungen der Anweisung steuern.
 
 ADDIU $0, $1, 5
 AND $1, $1, $1
