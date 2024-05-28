@@ -190,63 +190,113 @@ Diese Datentypen bieten eine Basis für die Speicherung und Manipulation von Dat
 
 ### Pseudocode folgt keiner spezifischen Syntax oder Semantik. Es wird lediglich zur intuitiven Erklärung von Algorithmen verwendet. Interpretiere folgenden Pseudocode-Beispiele. Erkläre was in jedem einzelnen Schritt passiert.
 **Beispiel 1**
+
 i ← 10
+
 if i ≥ 5 then
+
 i ← i − 1
+
 else
+
 if i ≤ 3 then
+
 i ← i + 2
+
 end if
+
 end if
 
 **Beispiel 2**
+
 Require: n ≥ 0
+
 Ensure: y = x
-n
+
 y ← 1
+
 X ← x
+
 N ← n
+
 while N ̸= 0 do
+
 if N is even then
+
 X ← X × X
+
 N ← N
+
 2
+
 else if N is odd then
+
 y ← y × X
+
 N ← N − 1
+
 end if
+
 end while
 
 **Beispiel 3**
+
 if i ≥ maxval then
+
 i ← 0
+
 else
+
 if i + k ≤ maxval then
+
 i ← i + k
+
 end if
+
 end if
 
 **Beispiel 4**
+
 Require: n ≥ 0 ∨ x ̸= 0
+
 3
+
 Ensure: y = x
+
 n
+
 y ⇐ 1
+
 if n < 0 then
+
 X ⇐ 1/x
+
 N ⇐ −n
+
 else
+
 X ⇐ x
+
 N ⇐ n
+
 end if
+
 while N ̸= 0 do
+
 if N is even then
+
 X ⇐ X × X
+
 N ⇐ N/2
+
 else[N is odd]
+
 y ⇐ y × X
+
 N ⇐ N − 1
+
 end if
+
 end while
 
 ### Prozedurales Programmieren
