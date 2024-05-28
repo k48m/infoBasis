@@ -1,6 +1,6 @@
 ## Grundlagen der Programmierung
 
-## Recherchiere die Definition der Begriffe ’programming’, ’coding’, ’scripting’, ’hacking’. Was unterscheidet diese Begriffe voneinander?
+### Recherchiere die Definition der Begriffe ’programming’, ’coding’, ’scripting’, ’hacking’. Was unterscheidet diese Begriffe voneinander?
 Programming (Programmieren) Definition: Der umfassende Prozess des Entwerfens, Schreibens, Testens und Wartens von Software.
 Ziel: Erstellung komplexer Softwarelösungen.
 Sprachen: Java, C++, Python etc.
@@ -18,7 +18,7 @@ Hacking (Hacken) Definition: Finden und Ausnutzen von Schwachstellen in Computer
        
 Unterschiede: Programmieren ist umfassender als Codieren. Skripten ist auf spezifische Aufgaben fokussiert, oft kleiner und weniger komplex. Hacken konzentriert sich auf das Finden und Ausnutzen von Sicherheitslücken, oft über das reine Programmieren hinaus.
 
-## Recherchiere die Definition der Begriffe ’Program’, ’Algorithm’, ’Code’, ’Application’, ’Software’, ’Script’. Was unterscheidet diese Begriffe voneinander.
+### Recherchiere die Definition der Begriffe ’Program’, ’Algorithm’, ’Code’, ’Application’, ’Software’, ’Script’. Was unterscheidet diese Begriffe voneinander.
 Program (Programm)Definition: Eine Reihe von Anweisungen, die von einem Computer ausgeführt werden. Beispiel: Textverarbeitungsprogramm. 
 Algorithm (Algorithmus) Definition: Eine Schritt-für-Schritt-Anleitung zur Lösung eines Problems. Beispiel: Sortieralgorithmus. 
 Code (Code) Definition: Der Text in einer Programmiersprache, der Programme und Software erstellt. Beispiel: Quellcode in Python. 
@@ -26,7 +26,7 @@ Application (Anwendung) Definition: Software, die eine bestimmte Aufgabe für de
 Software (Software) Definition: Sammelbegriff für Programme und Anwendungen auf einem Computer. Beispiel: Betriebssystem, Anwendungen. 
 Script (Skript) Definition: Ein kleines Programm zur Automatisierung von Aufgaben. Beispiel: Automatisierungsskript in Bash. Unterschiede: Program: Spezifische Anweisungen zur Ausführung einer Aufgabe. Algorithm: Theoretische Methode zur Problemlösung. Code: Schriftliche Anweisungen in einer Programmiersprache. Application: Benutzerorientierte Software. Software: Überbegriff für alle Programme und Anwendungen. Script: Kleines Programm zur Automatisierung von Aufgaben. 
 
-## Erkläre kurz die Fachbegriffe ’High Level Programming Language’, ’Assembly Language’, ’Machine Language’. Gib ein Beispiel fur jede Kategorie.
+### Erkläre kurz die Fachbegriffe ’High Level Programming Language’, ’Assembly Language’, ’Machine Language’. Gib ein Beispiel fur jede Kategorie.
 High Level Programming Language (Hochsprachen)
 Definition: Programmiersprachen, die weitgehend von der Maschinensprache abstrahieren und menschenlesbar sind. Ist ermöglichen es Programmierern, komplexe Aufgaben mit einfachen Befehlen zu schreiben.
 Beispiel: Python
@@ -39,7 +39,7 @@ Beispiel: x86-Assembler
 Definition: Die niedrigste Programmiersprache, die direkt von der CPU ausgeführt wird. Sie besteht aus binären oder hexadezimalen Anweisungen, die für Menschen schwer verständlich sind.
 Beispiel: 11001001 (Binärcode für eine spezifische Maschinenanweisung).
 
-## Was ist ein Compiler, was ist ein Interpreter? Welche Funktionen erfüllen diese?
+### Was ist ein Compiler, was ist ein Interpreter? Welche Funktionen erfüllen diese?
 Compiler Definition: Ein Compiler ist ein Programm, das den Quellcode einer Hochsprache in Maschinensprache (Binärcode) übersetzt, die vom Computer direkt ausgeführt werden kann.
 Funktionen: Übersetzung: Wandelt den gesamten Quellcode auf einmal in ausführbaren Code um. Optimierung: Verbessert den Code, um die Ausführungseffizienz zu erhöhen.
 Fehlererkennung: Erkennt Syntaxfehler und andere Probleme im Quellcode vor der Ausführung.
@@ -52,7 +52,7 @@ Fehlererkennung: Erkennt und meldet Fehler während der Ausführung des Codes.
 Flexibilität: Erlaubt schnelles Testen und Debuggen, da Änderungen sofort ausgeführt werden können.
 Beispiel: Python-Interpreter für Python.
 
-## Recherchiere und erkläre folgende Fachbegriffe: ’Datentyp’, ’Kondition’, ’Schleife’, ’Kontrollstruktur’, ’Funktion’, ’Klasse’, ’Pseudocode’
+### Recherchiere und erkläre folgende Fachbegriffe: ’Datentyp’, ’Kondition’, ’Schleife’, ’Kontrollstruktur’, ’Funktion’, ’Klasse’, ’Pseudocode’
 1.Datentyp
 Definition: Art der Werte, die eine Variable annehmen kann.
 Beispiele: Integer, Float, String, Boolean
@@ -98,7 +98,7 @@ BEGIN
     PRINT total
 END
 
-## Ein Datentyp ist eine abstrahierte Struktur, in welcher Daten unterschiedlichen Types gesammelt werden. Diese nutzen unterschiedliche Längen von Byte, um verschiedene Werte oder Buchstaben speichern zu können. Was sind gängige Datentypen über verschiedene Programmiersprachen wie C, Python und Java, und welche Länge nutzen sie?
+### Ein Datentyp ist eine abstrahierte Struktur, in welcher Daten unterschiedlichen Types gesammelt werden. Diese nutzen unterschiedliche Längen von Byte, um verschiedene Werte oder Buchstaben speichern zu können. Was sind gängige Datentypen über verschiedene Programmiersprachen wie C, Python und Java, und welche Länge nutzen sie?
 C
 char
    Länge: 1 Byte
@@ -188,15 +188,15 @@ boolean
 
 Diese Datentypen bieten eine Basis für die Speicherung und Manipulation von Daten in verschiedenen Programmiersprachen, wobei die genaue Speicherbelegung und die Art der Daten unterschiedlich sein können.
 
-## Prozedurales Programmieren
+### Prozedurales Programmieren
 Prozedurales Programmieren ist ein Programmierparadigma, das sich auf die Erstellung von Prozeduren oder Funktionen konzentriert. Diese Prozeduren sind eine Abfolge von Anweisungen, die bestimmte Aufgaben oder Berechnungen durchführen. Das Hauptziel dieses Paradigmas ist es, den Programmablauf klar zu strukturieren und in einzelne, wiederverwendbare Einheiten zu zerlegen. Prozedurales Programmieren ist dadurch gekennzeichnet.
 Sequentiell arbeitet: Der Code wird in einer bestimmten Reihenfolge ausgeführt.
 Modular ist: Der Code wird in Prozeduren oder Funktionen aufgeteilt, die wiederverwendbar sind.
 Lokale und globale Variablen verwendet: Variablen können innerhalb von Prozeduren oder global im gesamten Programm definiert sein.
 Beispiele für prozedurale Programmiersprachen sind C, Pascal und Fortran.
 
-## Deklaratives Programmieren / Imperatives
-**Deklaratives Programmieren** beschreibt, was das Programm erreichen soll, ohne den genauen Ablauf vorzugeben (z.B. SQL, HTML). **Imperatives Programmieren** legt fest, wie etwas erreicht werden soll, indem es Schritt-für-Schritt-Anweisungen gibt (z.B. C, Java).
+### Deklaratives Programmieren / Imperatives
+Deklaratives Programmieren beschreibt, was das Programm erreichen soll, ohne den genauen Ablauf vorzugeben (z.B. SQL, HTML). **Imperatives Programmieren** legt fest, wie etwas erreicht werden soll, indem es Schritt-für-Schritt-Anweisungen gibt (z.B. C, Java).
 
-## Pattern Observer Singleton
+### Pattern Observer Singleton
 Das Observer Pattern ermöglicht Objekten, automatisch über Änderungen in einem anderen Objekt informiert zu werden. Das Singleton Pattern stellt sicher, dass eine Klasse nur eine Instanz hat. Zusammen genutzt ermöglichen sie die Benachrichtigung mehrerer Objekte über Änderungen einer Singleton-Instanz.
