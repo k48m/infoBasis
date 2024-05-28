@@ -1,10 +1,8 @@
-##Grundlagen der Programmierung
-
-## Fachbegriffe
+## Grundlagen der Programmierung
 
 ## Recherchiere die Definition der Begriffe ’programming’, ’coding’, ’scripting’, ’hacking’. Was unterscheidet diese Begriffe voneinander?
-       Programming (Programmieren) Definition: Der umfassende Prozess des Entwerfens, Schreibens, Testens und Wartens von Software.
-       Ziel: Erstellung komplexer Softwarelösungen.
+Programming (Programmieren) Definition: Der umfassende Prozess des Entwerfens, Schreibens, Testens und Wartens von Software.
+Ziel: Erstellung komplexer Softwarelösungen.
 Sprachen: Java, C++, Python etc.
 
 Coding (Codieren) Definition: Das Schreiben von Code in einer Programmiersprache.
@@ -21,7 +19,7 @@ Hacking (Hacken) Definition: Finden und Ausnutzen von Schwachstellen in Computer
 Unterschiede: Programmieren ist umfassender als Codieren. Skripten ist auf spezifische Aufgaben fokussiert, oft kleiner und weniger komplex. Hacken konzentriert sich auf das Finden und Ausnutzen von Sicherheitslücken, oft über das reine Programmieren hinaus.
 
 ## Recherchiere die Definition der Begriffe ’Program’, ’Algorithm’, ’Code’, ’Application’, ’Software’, ’Script’. Was unterscheidet diese Begriffe voneinander.
-       Program (Programm)Definition: Eine Reihe von Anweisungen, die von einem Computer ausgeführt werden. Beispiel: Textverarbeitungsprogramm. 
+Program (Programm)Definition: Eine Reihe von Anweisungen, die von einem Computer ausgeführt werden. Beispiel: Textverarbeitungsprogramm. 
 Algorithm (Algorithmus) Definition: Eine Schritt-für-Schritt-Anleitung zur Lösung eines Problems. Beispiel: Sortieralgorithmus. 
 Code (Code) Definition: Der Text in einer Programmiersprache, der Programme und Software erstellt. Beispiel: Quellcode in Python. 
 Application (Anwendung) Definition: Software, die eine bestimmte Aufgabe für den Benutzer erfüllt. Beispiel: Webbrowser, Spiele. 
@@ -55,7 +53,7 @@ Flexibilität: Erlaubt schnelles Testen und Debuggen, da Änderungen sofort ausg
 Beispiel: Python-Interpreter für Python.
 
 ## Recherchiere und erkläre folgende Fachbegriffe: ’Datentyp’, ’Kondition’, ’Schleife’, ’Kontrollstruktur’, ’Funktion’, ’Klasse’, ’Pseudocode’
-       1.Datentyp
+1.Datentyp
 Definition: Art der Werte, die eine Variable annehmen kann.
 Beispiele: Integer, Float, String, Boolean
        
